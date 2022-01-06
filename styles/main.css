@@ -9,6 +9,11 @@ h1 {
   color: #0C0A3E;
 }
 
+.container {
+  width: 444px;
+  margin: 0 auto;
+}
+
 .input-form {
   width: 400px;
   border: 2px solid #f8f8f8;
