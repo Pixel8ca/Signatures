@@ -1,28 +1,33 @@
 body {
-  background-color: #fdfdfd;
+  background-color: #0F1111;
   margin: 25px;
 }
 
 h1 {
   font-size: 20px;
   font-weight: 700;
-  color: #0C0A3E;
+  color: #fdfdfd;
 }
 
 .toggle {
   font-size: 11px;
   text-decoration: none;
-  color: #0C0A3E;
+  color: #fdfdfd;
   font-weight: bold;
   padding: 12px;
   border: 2px solid;
-  border-color:  #f8f8f8;
+  border-color:  #1B1B1B;
   border-radius: 5px;
 }
 
 .toggle:hover {
-  background-color: #f8f8f8;
+  background-color: #1B1B1B;
 }
+.container {
+  width: 444px;
+  margin: 0 auto;
+}
+
 .container {
   width: 444px;
   margin: 0 auto;
@@ -30,7 +35,7 @@ h1 {
 
 .input-form {
   width: 400px;
-  border: 2px solid #f8f8f8;
+  border: 2px solid #000000;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
@@ -39,18 +44,19 @@ h1 {
 .gen-sign {
   display: inline-block;
   padding: 20px;
-  background-color: #f8f8f8;
-  border: 2px solid #f8f8f8;
+  background-color: #1B1B1B;
+  border: 2px solid #1B1B1B;
   border-radius: 20px;
 }
 
 label {
-  color: #0C0A3E;
+  color: #fdfdfd;
   font-size: 12px;
   font-weight: bold;
 }
 input {
-  border: 1px solid #e4e9f0;
+  background-color: #1B1B1B;
+  border: 1px solid #000000;
   border-radius: 5px;
   width: 380px;
   padding: 8px;
@@ -75,4 +81,8 @@ button {
   text-align: right;
   width: 38%;
   vertical-align: middle;
+}
+
+#first_name {
+  color: #fdfdfd;!important
 }
