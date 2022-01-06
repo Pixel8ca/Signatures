@@ -18,6 +18,7 @@ h1 {
   border: 2px solid;
   border-color:  #1B1B1B;
   border-radius: 5px;
+  /* fix */
 }
 
 .toggle:hover {
