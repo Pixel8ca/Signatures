@@ -39,7 +39,7 @@ h1 {
 .gen-sign {
   display: inline-block;
   padding: 20px;
-  background-color: #f8f8f8;
+  /* background-color: #f8f8f8; */
   border: 2px solid #f8f8f8;
   border-radius: 20px;
 }
